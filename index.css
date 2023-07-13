@@ -34,6 +34,9 @@ height: 100vh;
 align-items: center;
 background-image:url("images/background.png"),linear-gradient(45deg,#202020,#1a1818) ;
 color: white;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
 }
 .banner-img{
 width: 300px;
@@ -58,3 +61,11 @@ border: none;
     cursor: pointer;
     color: rgb(0, 0, 0);
 }
+
+
+
+
+
+
+
+
