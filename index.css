@@ -3,7 +3,7 @@ margin: 0px;
 padding: 0px;
 }
 .menu-container{
-background-color: rgb(29, 28, 28);
+background-color: rgb(75, 69, 69);
 padding: 20px;
 color: white;
 list-style: none;
@@ -25,4 +25,36 @@ cursor: pointer;
 }
 .menu:hover{
     color: aqua;
+}
+.banner-container{
+display: flex;
+justify-content: space-around;
+height: 100vh;
+/* border: 2px solid teal; */
+align-items: center;
+background-image:url("images/background.png"),linear-gradient(45deg,#202020,#1a1818) ;
+color: white;
+}
+.banner-img{
+width: 300px;
+}
+.title{
+font-size: 56px;
+font-weight: bold;
+}
+.description{
+font-size: 18px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.btn{
+padding: 10px 20px;
+background-color: red;
+color: white;
+border: none;
+/* border-radius: 10px; */
+}
+.btn:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
 }
