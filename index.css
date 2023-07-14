@@ -145,13 +145,14 @@ padding-right: 80px;
 }
 .logo{
     height: 30px;
-    width: 150px;
+    width: 170px;
     padding-bottom: 10px;
 }
 .logo-box{
 /* height: 200px; */
 width: 250px;
 align-items: center;
+
 }
 .footer-description{
 display: block;
@@ -173,17 +174,14 @@ padding-bottom: 26px;
     /* height: 200px; */
     /* width: 200px; */
     line-height: 15px;
-    padding-right: 30px;
-    padding-top: 30px;
+    /* padding-right: 30px; */
+    /* padding-top: 30px; */
 }
 .footer-title-description{
     line-height: 24px;
     font-size: 14px;
 }
-.footer-hr{
 
-    
-}
 
 
 
