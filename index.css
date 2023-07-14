@@ -44,6 +44,7 @@ background-repeat: no-repeat;
 }
 .banner-img{
 width: 300px;
+padding-bottom: 20px;
 }
 .title{
 font-size: 56px;
@@ -87,17 +88,18 @@ text-align: center;
 font-size: 54px;
 }
 .box-photo{
-height: 120px;
-width: 100px;
+height: 90px;
+width: 70px;
 }
 .box{
 width: 230px;
-height: 280px;
-box-shadow: 4px 4px 15px gray;
+height: 300px;
+box-shadow: 6px 6px 40px gray;
 background-color: black;
 text-align: center;
 color: white;
 padding: 15px;
+border-radius: 15px;
 }
 .icon{
 height: 100px;
@@ -105,7 +107,8 @@ width: 110px;
 }
 .box-btn{
 background-color: gray;
-margin-top: 10px;
+margin-top: 15px;
+margin-bottom: 15px;
 }
 .btn-description{
 margin-top: 10px;
@@ -119,6 +122,8 @@ justify-content: space-around;
 }
 .section-container{
     background-image:url("images/background.png"),linear-gradient(45deg,#161616,#1a1818) ;
+    padding-bottom: 40px;
+    padding-top: 40px;
 
 }
 .service{
@@ -126,3 +131,59 @@ justify-content: space-around;
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.footer-container{
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: black;
+color: white;
+height: 70vh;
+text-align: left;
+padding-left:100px;
+padding-right: 80px;
+
+}
+.logo{
+    height: 30px;
+    width: 150px;
+    padding-bottom: 10px;
+}
+.logo-box{
+/* height: 200px; */
+width: 250px;
+align-items: center;
+}
+.footer-description{
+display: block;
+    line-height: 1.8em;
+}
+.footer-title{
+text-align: left;
+font-size: 18px;
+padding-bottom: 26px;
+/* font-weight: bolder; */
+}
+.footer-title-header{
+/* text-align: center; */
+    list-style: none;
+    /* letter-spacing: 2px; */
+    line-height: 25px;
+}
+.footer-useful{
+    /* height: 200px; */
+    /* width: 200px; */
+    line-height: 15px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+.footer-title-description{
+    line-height: 24px;
+    font-size: 14px;
+}
+.footer-hr{
+
+    
+}
+
+
+
