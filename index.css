@@ -86,9 +86,43 @@ padding-top: 20px;
 text-align: center;
 font-size: 54px;
 }
+.box-photo{
+height: 120px;
+width: 100px;
+}
+.box{
+width: 230px;
+height: 280px;
+box-shadow: 4px 4px 15px gray;
+background-color: black;
+text-align: center;
+color: white;
+padding: 15px;
+}
+.icon{
+height: 100px;
+width: 110px;
+}
+.box-btn{
+background-color: gray;
+margin-top: 10px;
+}
+.btn-description{
+margin-top: 10px;
+}
+.btn-title{
+    margin-top: 10px;
+}
+.box-container{
+    display: flex;
+justify-content: space-around;
+}
+.section-container{
+    background-image:url("images/background.png"),linear-gradient(45deg,#161616,#1a1818) ;
 
-
-
-
-
-
+}
+.service{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
